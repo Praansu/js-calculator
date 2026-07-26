@@ -12,6 +12,12 @@ A clean, responsive browser calculator built with vanilla JavaScript. Features k
 - **Clean UI** — gradient background, modern button styling
 - **Error handling** — division by zero, edge cases
 
+## 📸 Screenshots
+
+| Clean State | In Action |
+|-------------|-----------|
+| ![Clean](images/screenshot.png) | ![In Action](images/screenshot-action.png) |
+
 ## 🎮 Usage
 
 ### Mouse

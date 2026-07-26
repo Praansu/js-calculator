@@ -1,62 +1,35 @@
 # 🧮 JS Calculator
 
-A clean, responsive browser calculator built with vanilla JavaScript. Features keyboard support, modern UI, and fluid animations.
+A browser calculator I built because... well, every developer builds a calculator at some point, right? Might as well make it look good.
 
-🔗 **Live Demo:** https://praansu.github.io/js-calculator/
+🔗 **Live:** [praansu.github.io/js-calculator](https://praansu.github.io/js-calculator)
 
-## ✨ Features
+## What works
 
-- **Basic arithmetic** — add, subtract, multiply, divide
-- **Keyboard support** — type numbers and operators directly
-- **Responsive design** — works on mobile and desktop
-- **Clean UI** — gradient background, modern button styling
-- **Error handling** — division by zero, edge cases
+- Add, subtract, multiply, divide — the essentials
+- Keyboard support (turns out typing numbers is faster than clicking)
+- Responsive layout — works on mobile, doesn't break on desktop
+- Gradient background and smooth buttons (I spent way too long on the CSS)
+- Handles edge cases — division by zero won't crash your browser
 
-## 📸 Screenshots
+## Screenshots
 
-| Clean State | In Action |
-|-------------|-----------|
-| ![Clean](images/screenshot.png) | ![In Action](images/screenshot-action.png) |
+| Clean | In action |
+|-------|-----------|
+| ![Clean](images/screenshot.png) | ![In action](images/screenshot-action.png) |
 
-## 🎮 Usage
-
-### Mouse
-Click the on-screen buttons to enter calculations.
-
-### Keyboard
-
-| Key | Action |
-|-----|--------|
-| `0-9` | Enter numbers |
-| `+ - * /` | Operators |
-| `Enter` / `=` | Calculate |
-| `.` | Decimal point |
-| `Backspace` | Delete last digit |
-| `Escape` | Clear all |
-
-## 🛠️ Built With
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-## 🚀 Quick Start
+## Quick start
 
 ```bash
-# Clone and open in browser
 git clone https://github.com/Praansu/js-calculator.git
 cd js-calculator
-open index.html
+# Open index.html — no build step, no npm install, no drama
 ```
 
-## 📚 What I Learned
+## What this taught me
 
-- DOM manipulation and event handling
-- Calculator expression evaluation logic
-- CSS Grid layout for button positioning
-- Keyboard event integration
-- State management without frameworks
+Debugging keyboard events is surprisingly fiddly (e.key vs e.code — who knew?). CSS Grid is great for button layouts. And sometimes the simplest projects teach you the most.
 
-## 📄 License
+## License
 
-MIT © 2026 Praansu Karmacharya
+MIT
